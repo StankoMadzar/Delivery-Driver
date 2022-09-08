@@ -35,9 +35,5 @@ public class Delivery : MonoBehaviour
             hasPackage = false;
             spriteRenderer.color = noPackageColor;
         }
-        else 
-        {
-            Debug.Log("You have no packages man");
-        }
     }
 }
